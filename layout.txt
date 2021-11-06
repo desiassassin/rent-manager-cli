@@ -1,0 +1,53 @@
+******************************************************************************
+username : ?
+password : ?
+******************************************************************************
+
+
+******************************************************************************
+Hi ${username}, where to?
+1. Records -> select year -> select month -> select room
+2. Physical Space
+     []1. Add a new room
+          -> room id
+          -> tenant id
+          -> rent
+          -> room type
+     []2. Update a room -> room id : eg. 202
+     []3. Delete a room -> room id : eg. 202 -> confirm?
+     []4. Delete multiple rooms -> space seprated rooms ids : eg. 102 103 104 204 000 -> confirm?
+3. Tenants
+     1. Show a tenant -> tenant id : eg. 0001
+     2. Show all tenants
+     3. Add a new tenant
+          -> tenant id
+          -> room id
+          -> name
+          -> verification
+          -> aadhaar
+          -> occupation
+          -> mobile number
+          -> alternate number
+          -> email
+          -> age
+          -> permanent address
+          -> data of moving in
+          -> electricity units at time of moving in
+          -> date of leaving
+          -> security
+          -> keycard number
+          -> agreement number
+     4. Update a tenant -> tenant id : eg. 202 -> confirm?
+     5. Delete a tenant -> tenant id : eg. 202 -> confirm?
+     6. Delete multiple tenants -> space seprated tenant ids : eg. T001 T002 -> confirm?
+4. Electricity Stuff
+     1. Show current electricity charges
+     2. Update electricity charges
+5. Legal
+     1. Show all legal agreements
+     2. Show a particular legal agreement -> agreement number : eg. 712693982173
+     3. Add a new legal agreement
+     4. Update an existing legal agreement -> agreement number : eg. 712693982173 -> confirm?
+     5. Delete a legal agreement -> agreement number : eg. 712693982173 -> confirm?
+     6. Delete multiple legal agreements -> agreement number : eg. 712693982173 -> confirm?
+******************************************************************************

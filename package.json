@@ -1,0 +1,29 @@
+{
+  "name": "rent-manager-mongo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "webpack": "webpack"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "clear": "^0.1.0",
+    "cli-table": "^0.3.6",
+    "dotenv": "^10.0.0",
+    "enquirer": "^2.3.6",
+    "figlet": "^1.5.2",
+    "lodash": "^4.17.21",
+    "mongoose": "^6.0.11",
+    "open": "^8.4.0"
+  },
+  "devDependencies": {
+    "webpack": "^5.60.0",
+    "webpack-cli": "^4.9.1"
+  }
+}
